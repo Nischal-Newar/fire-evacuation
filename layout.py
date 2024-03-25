@@ -19,12 +19,12 @@ class Layout:
         self.fire_exits = fire_exits
         self.sensors = sensors
         self.place_objects()
-        self.red_fire_image = mpimg.imread('fire.png')
-        self.blue_fire_image = mpimg.imread('blue_fire.png')
-        self.table = mpimg.imread('table.png')
-        self.room = mpimg.imread('room.png')
-        self.exit = mpimg.imread('exit.png')
-        self.sensor = mpimg.imread('sensor.png')
+        self.red_fire_image = mpimg.imread('images/fire.png')
+        self.blue_fire_image = mpimg.imread('images/blue_fire.png')
+        self.table = mpimg.imread('images/table.png')
+        self.room = mpimg.imread('images/room.png')
+        self.exit = mpimg.imread('images/exit.png')
+        self.sensor = mpimg.imread('images/sensor.png')
 
     def place_objects(self):
         for loc in self.people:
